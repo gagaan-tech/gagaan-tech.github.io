@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+
 .text{
     font-family: 'Pacifico', cursive;
     font-size:1.6em;
+}
+
+
+.navbar-animations:hover{
+    background-color:rgba(129, 129, 129, 0.712);
+    color:white;
+}
+
+.navbar-animations{
+    background-color:red;
+    color:black;
 }
