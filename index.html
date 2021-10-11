@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAGAAN</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="fp">
+    <header>
+        <p class="lname">Gagaan</p>
+        <div class="headc1">
+            <div class="nav">
+                <ul>
+                <li><a href="#pro"><span class="multicolortext">Projects</span></a></li>
+            </ul>
+        </div>
+            <div class="navb" id="navb">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="navbb" id="navbb">
+            <div class="navb1">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li id="dd"><a><i class="fas fa-phone-alt"></i>&nbsp; Contact Us &nbsp;<i class="fas fa-angle-down" ></i></a>
+                <li class="csub"><a href=""><i class="fab fa-instagram" id="inc"></i>&nbsp; Instagram</a></li>
+                </li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Updates</a></li>
+                <li><a href="">Mission</a></li>
+                <li class="cq"><a href="" class="cq"><span>Common Quetions</span></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="tab">
+        <a href="">Updates</a>
+    </div>
+    <div class="cont1">
+        <div class="subc1">
+            <h2>About Gagaan</h2>
+            <p><span class="s1">Gagaan</span>.This webpage is specially created for professional purpose and we serve <span class="s2">cost-free webpages for first 5 clients</span> and a <span class="s3">customized logo in no-cost</span></p>
+        </div>
+    </div>
+    <div class="ar">
+        <span><i class="fas fa-chevron-down"></i></i></span>
+    </div>
+</div>
+<div class="sp">
+    <h4 id="pro">projects</h4>
+    <div class="p1">
+        <a href="">Visit</a>
+        <h4>May 2021 <h5>#1</h5></h4>
+        <img src="./1w img.png" alt="">
+        <p>This webpage was created for sample purpose. <br>And this our 1st webpage</p>
+    </div>
+    <div class="p2">
+        <a href="">Visit</a>
+        <h4>August 2021 <h5>#2</h5></h4>
+        <div class="imga">
+            <img src="./images/repm2w.png" alt="image not loaded">
+            <img src="./images/repm22w.png" alt="image not loaded">
+            <img src="./images/rept2w.png" alt="image not loaded">
+            <img src="./images/rept22w.png" alt="image not loaded">
+        </div>
+        <i class="fas fa-chevron-right"></i>
+        <p>This webpage was created for sample purpose. <br>This webpage was created to have a responsive webpage<br> And this our 2nd webpage</p>
+    </div>
+</div>
+<div class="link">
+    <h3>Be a Supporter</h3>
+    <a href=""><i class="far fa-envelope" id="pm"></i>&nbsp; Proton Mail</a>
+    <a href=""><i class="fab fa-github" id="gh"></i>&nbsp; GitHub</a>
+    <a href=""><i class="fab fa-instagram" id="ig"></i>&nbsp; Instagram</a>
+    <a href=""><i class="fab fa-twitter" id="twt"></i>&nbsp; Twitter</a>
+</div>
+
+
+    <script>
+        $(document).ready(function() {
+            $('.navb').click(function(){
+        $('.navbb').slideToggle();
+      });
+      $(".navb1").click(function() {
+          $(".navbb").slideToggle();
+      });
+      $("#dd").click(function() {
+          $(".csub").slideToggle();
+      });
+        });
+    </script>
+</body>
+</html>
