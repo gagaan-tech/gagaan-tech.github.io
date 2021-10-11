@@ -7,12 +7,10 @@
 }
 
 
-.navbar-animations:hover{
-    background-color:rgba(129, 129, 129, 0.712);
+.navbar-animations:hover{   
     color:white;
 }
 
 .navbar-animations{
-    background-color:red;
-    color:black;
+    color:rgb(0, 0, 0);
 }
